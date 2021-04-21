@@ -1,3 +1,3 @@
-**SirReads CodeProj Website**
-This is the github repo of this website right here! 
+**SirReads CodeProj Website**\n
+This is the github repo of this website right here! \n
 https://sralcodeproj.netlify.app
