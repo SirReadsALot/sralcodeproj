@@ -83,6 +83,7 @@
     border-collapse: collapse;
     text-align: center;
     justify-content: center;
+    margin: auto;
     padding: 40px;
     background-color: #084488;
     font-family: 'Dosis', sans-serif;
@@ -101,5 +102,4 @@
     margin: 0 auto;
     justify-self: center;
   }
-
   
