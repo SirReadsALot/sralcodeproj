@@ -6,7 +6,8 @@
   }
 
   .proj h3 {
-      font-size: 50px;
+      font-size: 60px;
+      text-decoration: underline;
   }
   
   .proj {
@@ -20,7 +21,8 @@
   }
 
   .proj i {
-    font-size: 35px;
+    font-size: 30px;
+    font-weight: 600;
   }
   
   .navbar {
@@ -63,7 +65,10 @@
       font-weight: 501;
     }
     .proj h3 {
-      font-size: 100px; /* original: 37px */
+      font-size: 50px; /* original: 37px */
+    }
+    .proj img {
+      height: 312px;
     }
   }
   

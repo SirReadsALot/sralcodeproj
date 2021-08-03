@@ -1,0 +1,171 @@
+@media screen and (max-width: 400px) {
+    * {
+        box-sizing: border-box;
+    }
+    
+    .proj_container {
+        border-color: black;
+        background-color: rgb(240, 238, 238);
+        padding: 2;
+        width: 100px;
+        height: 545px;
+    }
+
+    .proj_title {
+        text-align: center;
+        font-size: 70px;
+        height: 80px;
+        margin: 0px;
+    }
+
+    .footer {
+        padding: 10px;
+        text-align: center;
+        background: rgb(5, 4, 4);
+        height: 160px;
+        margin-bottom: 0px;
+        font-size: 20px;
+        font-family: 'Dosis', sans-serif;
+        color: white;
+      }
+
+    .footer img {
+        height: 40px;
+    }
+
+    .ddc {
+      color: white;
+      height: 100px;
+      width: 300px;
+      font-size: 30px;
+      font-family: 'Dosis', sans-serif;
+      font-weight: 600;
+      border-radius: 2rem;
+      border-style: none;
+      padding: 5px;
+      margin-top: 20px;
+      margin-left: 45px;
+      float: left;
+      background-image: url("./assets/background_deeeep.io.PNG");
+      background-position: -200px;
+      background-repeat: no-repeat;
+      box-shadow: 4px 4px black;
+    }
+    
+    .ddc:hover {
+      height: 100px;
+      width: 300px;
+      font-size: 30px;
+      font-family: 'Dosis', sans-serif;
+      font-weight: 600;
+      border-radius: 2rem;
+      border-style: none;
+      padding: 5px;
+      margin-top: 20px;
+      margin-left: 45px;
+      float: left;
+      box-shadow: 8px 8px black;
+    }
+    
+    .docbot {
+      color: white;
+      height: 100px;
+      width: 300px;
+      font-size: 30px;
+      font-family: 'Dosis', sans-serif;
+      font-weight: 600;
+      border-radius: 2rem;
+      border-style: none;
+      padding: 5px;
+      margin-top: 20px;
+      margin-left: 45px;
+      float: left;
+      background-image: url("./assets/Doctorpus.png");
+      background-position: -200px;
+      background-repeat: no-repeat;
+      box-shadow: 4px 4px black;
+    }
+    
+    .docbot:hover {
+      height: 100px;
+      width: 300px;
+      font-size: 30px;
+      font-family: 'Dosis', sans-serif;
+      font-weight: 600;
+      border-radius: 2rem;
+      border-style: none;
+      padding: 5px;
+      margin-top: 20px;
+      margin-left: 45px;
+      float: left;
+      box-shadow: 8px 8px black;
+    }
+    
+    .koralio {
+      color: white;
+      height: 100px;
+      width: 300px;
+      font-size: 30px;
+      font-family: 'Dosis', sans-serif;
+      font-weight: 600;
+      border-radius: 2rem;
+      border-style: none;
+      padding: 5px;
+      margin-top: 20px;
+      margin-left: 45px;
+      float: left;
+      background-image: url("./assets/sirsofashark.png");
+      background-position: -10px;
+      background-repeat: no-repeat;
+      box-shadow: 4px 4px black;
+    }
+    
+    .koralio:hover {
+      height: 100px;
+      width: 300px;
+      font-size: 30px;
+      font-family: 'Dosis', sans-serif;
+      font-weight: 600;
+      border-radius: 2rem;
+      border-style: none;
+      padding: 5px;
+      margin-top: 20px;
+      margin-left: 45px;
+      float: left;
+      box-shadow: 8px 8px black;
+    }
+    
+    .piscine {
+      color: white;
+      height: 100px;
+      width: 300px;
+      font-size: 30px;
+      font-family: 'Dosis', sans-serif;
+      font-weight: 600;
+      border-radius: 2rem;
+      border-style: none;
+      padding: 5px;
+      margin-top: 20px;
+      margin-left: 45px;
+      float: left;
+      background-image: url("./assets/WEBSITE_METAICON.png");
+      background-position: 42px;
+      background-repeat: no-repeat;
+      box-shadow: 4px 4px black;
+    }
+    
+    .piscine:hover {
+      height: 100px;
+      width: 300px;
+      font-size: 30px;
+      font-family: 'Dosis', sans-serif;
+      font-weight: 600;
+      border-radius: 2rem;
+      border-style: none;
+      padding: 5px;
+      margin-top: 20px;
+      margin-left: 45px;
+      float: left;
+      box-shadow: 8px 8px black;
+    }
+}
