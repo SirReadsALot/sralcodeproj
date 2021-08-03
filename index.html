@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#09bed6">
+    <meta name="description" content="Check out SirReadsALot's Projects!">
+    <meta content="https://cdn.discordapp.com/attachments/849723522250047498/861464927717687296/WEBSITE_METAICON.png" property="og:image"> 
     <title>SirReads' CodeProjects</title>
     <link rel="icon" href="./assets/favicon.ico"
 </head>
@@ -11,19 +14,57 @@
   <link rel="stylesheet" href="index.css">
   <script src="util.js"></script>
     <div class="header">
-        <h1>Welcome to SirReads' CodeProjects BETA 1.3!</h1>
+        <h1>Welcome to SirReads' CodeProjects!</h1>
         <p>The place where you can download SirReadsALot's projects!</p>
     </div>
     <h2 class="proj_title"><em>Projects</em></h2>
     <div class="proj_container">
-        <div class="Deeeep.io_Desktop_Client">
-            <a href="./Deeeep.io_Desktop_Client.html">Deeeep.io Desktop Client</a>
+        <div class="proj_display">
+            <button class="ddc" onclick="DDCredirect()">Deeeep.io Desktop Client</button>
+            <button class="docbot" onclick="Docbotredirect()">DocBot</button>
+            <button class="koralio" onclick="Koralioredirect()">Koral.io</button>
+            <button class="piscine" onclick="Piscineredirect()">Piscine</button>
         </div>
     </div>
     <div class="footer">
-        <i class="fab fa-discord"></i>
-        <i class="fab fa-twitter-square"></i>
-        <i class="fab fa-reddit"></i>
+        <h3>Made by SirReadsALot</h3>
+        <img src="./assets/discord.png" onclick="disc()">
+        <img src="./assets/github.png" onclick="github()">
+        <img src="./assets/twitter.png" onclick="twitter()">
     </div>
+    <script src="./anime.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        function DDCredirect() {
+            setTimeout(() => {
+                window.location.href = "./Deeeep.io_Desktop_Client.html"
+            }, 800);
+        }
+        function Docbotredirect() {
+            setTimeout(() => {
+                window.location.href = "./message.txt"
+            }, 800);
+        }
+        function Koralioredirect() {
+            setTimeout(() => {
+                window.location.href = "./message.txt"
+            }, 800);
+        }
+        function Piscineredirect() {
+            setTimeout(() => {
+                window.location.href = "./message.txt"
+            }, 800);
+        }
+
+        function disc() {
+            window.open("https://discord.gg/hpX9DZxyUC")
+        }
+        function github() {
+            window.open("https://github.com/SirReadsALot")
+        } 
+        function twitter() {
+            window.open("https://twitter.com/SRAL88912484")
+        }
+    </script>
 </body>
 </html>
