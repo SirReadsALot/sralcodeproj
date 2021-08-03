@@ -1,8 +1,1 @@
-Dear Mac users, 
-Sorry but it's hard to make mac versions of the desktop client since MacOS uses a 
-system of file directory called "Symlinks". Symlinks on Windows can be enabled but 
-it's very confusing to do it. So hopefully in the future, we can figure
-out how to do it properly.
-
-Have a nice day,
-SirReadsALot, Owner/Founder & Main Developer
+You just got trolled bro
