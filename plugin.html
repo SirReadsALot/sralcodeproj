@@ -11,9 +11,9 @@
     <link rel="icon" href="./assets/favicon.ico"
 </head>
 <body>
-<link rel="stylesheet" href="downloadHelp.css">
+<link rel="stylesheet" href="plugin.css">
     <div class="header">
-        <h1>D.D.C Download Help</h1>
+        <h1>D.D.C Plugins</h1>
     </div>
     <div class="navbar">
         <a href="./index.html">Back to Main page</a>
@@ -25,7 +25,32 @@
     </div>
     <div class="proj">
         <p class="intro">
-            <h3>Coming Soon</h3>
+            <input onkeydown="searchPlugin()" class="searchBar" type="text" placeholder="Search plugins..">
+                <!-- <li class="q">ddc-darkmode</li>
+                <li class="q">ddc-docassets</li>
+                <li class="q">ddc-bgm</li> -->
+                <div class="plugin"></div>
+                <div class="plugin"></div>
+                <div class="plugin"></div>
+                <div class="plugin"></div>
+                <div class="plugin"></div>
+                <div class="plugin"></div>
         </p>
+        <script>
+            function searchPlugin() {
+                console.log(`[info] Search Query: ${0}`)
+                // var input  = document.getElementsByClassName("searchBar").value;
+                // input = input.toLowerCase();
+                // let x = document.getElementsByClassName('q');
+      
+                // for (i = 0; i < x.length; i++) { 
+                //         if (!x[i].innerHTML.toLowerCase().includes(input)) {
+                //             x[i].style.display="none";
+                //         } else {
+                //             x[i].style.display="list-item";                 
+                //         }
+                // }
+            }
+        </script>
     </div>
 </body>

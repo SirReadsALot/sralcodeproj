@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Dosis:wght@400;700&display=swap');
+
+  body {
+    font-family: 'Dosis', sans-serif;
+    background-color: rgb(14, 99, 179);;
+  }
+
+  .proj h3 {
+      font-size: 50px;
+  }
+  
+  .proj {
+    background-color: rgb(14, 99, 179);
+    /* width: 1807px;
+    height: 850px; */
+    text-align: center;
+    padding: 40px;
+    color: rgb(58, 193, 255);
+    font-family: 'Dosis', sans-serif;
+  }
+
+  .proj i {
+    font-size: 35px;
+  }
+  
+  .navbar {
+    overflow: hidden;
+    background-color: rgb(17, 17, 17);
+    font-size: 20px;
+  }
+  
+  /* Style the navigation bar links */
+  .navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  /* Change color on hover */
+  .navbar a:hover {
+    background-color: rgb(241, 241, 241);
+    color: rgb(3, 3, 3);
+    font-weight: bold;
+  }
+  
+  @media screen and (max-width: 400px) {
+    .navbar a {
+      float: none;
+      width: 100%;
+      font-size: 18px;
+    }
+    .header {
+      background-image: url("./assets/background_deeeep.io.PNG");
+      background-repeat: repeat;
+      background-size: 1145px 199px;
+    }
+    .proj i {
+      font-size: 20px;
+      font-weight: 501;
+    }
+    .proj h3 {
+      font-size: 37px;
+    }
+  }
+  
+  /* Header/logo Title */
+  .header {
+    padding: 80px;
+    text-align: center;
+    background-image: url("./assets/background_deeeep.io.PNG");
+    color: white;
+    font-size: 90px;
+  }
+  
+  /* Increase the font size of the heading */
+  .header h1 {
+    font-size: 40px;
+  }
+  
+  .footer {
+    padding: 20px;
+    text-align: center;
+    background: rgb(5, 4, 4);
+    height: 305px;
+  }
+
+  .searchBar {
+      height: 40px;
+      width: 300px;
+      font-size: 20px;
+      border-radius: 15px;
+      border-style: none;
+      text-align: center;
+  }
+
+  .plugin {
+      background-color: white;
+      height: 220px;
+      width: 280px;
+      float: left;
+      margin-left: 20px;
+      margin-top: 20px;
+      align-self: center;
+      align-content: center;
+  }
