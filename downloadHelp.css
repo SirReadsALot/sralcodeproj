@@ -9,6 +9,13 @@
       font-size: 60px;
       text-decoration: underline;
   }
+
+  img {
+        background: transparent;
+        padding: 10px;
+        border: 4px solid #60eded;
+        border-style: dotted;
+  }
   
   .proj {
     background-color: rgb(14, 99, 179);
