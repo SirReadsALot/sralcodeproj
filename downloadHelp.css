@@ -5,6 +5,13 @@
     background-color: rgb(14, 99, 179);;
   }
 
+  img {
+        background: transparent;
+        padding: 8px;
+        border: 1px solid #ccc;
+        box-shadow: 10px 10px 10px #999;
+  }
+
   .proj h3 {
       font-size: 60px;
       text-decoration: underline;
