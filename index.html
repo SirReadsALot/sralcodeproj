@@ -8,12 +8,11 @@
     <meta name="description" content="Check out SirReadsALot's Projects!">
     <meta content="https://cdn.discordapp.com/attachments/849723522250047498/861464927717687296/WEBSITE_METAICON.png" property="og:image"> 
     <title>SirReads' CodeProjects</title>
-    <link rel="icon" href="./assets/favicon.ico"
+    <link rel="icon" href="./assets/favicon.ico" 
 </head>
 <body>
   <link rel="stylesheet" href="index.css">
   <link rel="stylesheet" href="indexMOBILE.css">
-  <script src="util.js"></script>
     <div class="header">
         <h1>Welcome to SirReads' CodeProjects!</h1>
         <p>The place where you can download SirReadsALot's projects!</p>
@@ -22,9 +21,9 @@
     <div class="proj_container">
         <div class="proj_display">
             <button class="ddc" onclick="DDCredirect()">Deeeep.io Desktop Client</button>
-            <button class="docbot" onclick="Docbotredirect()">DocBot</button>
-            <button class="koralio" onclick="Koralioredirect()">Koral.io</button>
-            <button class="piscine" onclick="Piscineredirect()">Piscine</button>
+            <button class="docbot" onclick="DefaultRedirect()">DocBot</button>
+            <button class="koralio" onclick="DefaultRedirect()">Koral.io</button>
+            <button class="piscine" onclick="DefaultRedirect()">Piscine</button>
         </div>
     </div>
     <div class="footer">
@@ -38,20 +37,10 @@
     <script>
         function DDCredirect() {
             setTimeout(() => {
-                window.location.href = "./Deeeep.io_Desktop_Client.html"
+                window.location.href = "./newMain.html"//"./Deeeep.io_Desktop_Client.html"
             }, 800);
         }
-        function Docbotredirect() {
-            setTimeout(() => {
-                window.location.href = "./message.txt"
-            }, 800);
-        }
-        function Koralioredirect() {
-            setTimeout(() => {
-                window.location.href = "./message.txt"
-            }, 800);
-        }
-        function Piscineredirect() {
+        function DefaultRedirect() {
             setTimeout(() => {
                 window.location.href = "./message.txt"
             }, 800);

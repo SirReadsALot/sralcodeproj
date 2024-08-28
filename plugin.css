@@ -65,24 +65,6 @@
     .proj h3 {
       font-size: 37px;
     }
-    .searchBar {
-      height: 40px;
-      width: 250px;
-      font-size: 20px;
-      border-radius: 15px;
-      border-style: none;
-      text-align: center;
-    }
-    .plugin {
-      background-color: white;
-      height: 220px;
-      width: 250px;
-      float: left;
-      margin-left: 15px;
-      margin-top: 20px;
-      align-self: center;
-      align-content: center;
-     }
   }
   
   /* Header/logo Title */
@@ -118,10 +100,11 @@
   .plugin {
       background-color: white;
       height: 220px;
-      width: 380px;
+      width: 300px;
       float: left;
       margin-left: 20px;
       margin-top: 20px;
       align-self: center;
       align-content: center;
   }
+  
