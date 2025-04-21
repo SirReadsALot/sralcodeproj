@@ -234,8 +234,22 @@
 <br>
 <p>wolfeel: 117</p>
 <br>
-<p>giantsiphonophore: 118</p>
+<p>giantsinophore: 118</p>
 <br>
 <p>coelacanth: 119</p>
 <br>
 <p>napoleonwrasse: 120</p>
+<br>
+<p>fiddlercrab: 121</p>
+<br>
+<p>platypus: 122</p>
+<br>
+<p>capybara: 123</p>
+<br>
+<p>lungfish: 124</p>
+<br>
+<p>arapaima: 125</p>
+<br>
+<p>giantfreshwaterstingray: 126</p>
+<br>
+<p>welscatfish: 127</p>
